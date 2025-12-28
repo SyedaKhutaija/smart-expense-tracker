@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+    background: #f7f5ff;
+}
+
+h1 {
+    text-align: center;
+    background: #5a4dfc;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input-section input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+button {
+    background: #5a4dfc;
+    color: white;
+    cursor: pointer;
+    border: none;
+}

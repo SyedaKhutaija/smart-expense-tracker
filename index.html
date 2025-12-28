@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>💰 Smart Expense Tracker</h1>
+
+    <div class="input-section">
+        <input id="amount" type="number" placeholder="Amount (₹)">
+        <input id="category" type="text" placeholder="Category (Food, Travel...)">
+        <input id="note" type="text" placeholder="Note (optional)">
+        <button onclick="addExpense()">Add Expense</button>
+    </div>
+
+    <h2>Total Spent: ₹<span id="total">0</span></h2>
+
+    <h3>Expenses:</h3>
+    <ul id="expense-list"></ul>
+
+    <h3>Spending Chart</h3>
+    <canvas id="expenseChart"></canvas>
+<script src="app.js"></script>
+<script src="chart.js"></script>
+</body>
+</html>
